@@ -10,6 +10,7 @@ import UIKit
 
 class AnjiViewController: UIViewController {
 
+    @IBOutlet weak var signutton: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
