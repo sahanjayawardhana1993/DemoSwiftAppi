@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA0BF65223132E60031CADE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0BF64223132E60031CADE /* AppDelegate.swift */; };
+		4CA0BF6A223132E60031CADE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA0BF68223132E60031CADE /* Main.storyboard */; };
+		4CA0BF6C223132E80031CADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA0BF6B223132E80031CADE /* Assets.xcassets */; };
+		4CA0BF6F223132E80031CADE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA0BF6D223132E80031CADE /* LaunchScreen.storyboard */; };
+		4CA0BF7A223132E80031CADE /* AngiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0BF79223132E80031CADE /* AngiTests.swift */; };
+		4CA0BF85223132E80031CADE /* AngiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0BF84223132E80031CADE /* AngiUITests.swift */; };
+		4CA0BF93223133510031CADE /* AnjiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA0BF92223133510031CADE /* AnjiViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CA0BF76223132E80031CADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA0BF59223132E50031CADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA0BF60223132E50031CADE;
+			remoteInfo = Angi;
+		};
+		4CA0BF81223132E80031CADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA0BF59223132E50031CADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA0BF60223132E50031CADE;
+			remoteInfo = Angi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CA0BF61223132E50031CADE /* Angi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Angi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA0BF64223132E60031CADE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CA0BF69223132E60031CADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CA0BF6B223132E80031CADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CA0BF6E223132E80031CADE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CA0BF70223132E80031CADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA0BF75223132E80031CADE /* AngiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA0BF79223132E80031CADE /* AngiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngiTests.swift; sourceTree = "<group>"; };
+		4CA0BF7B223132E80031CADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA0BF80223132E80031CADE /* AngiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA0BF84223132E80031CADE /* AngiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngiUITests.swift; sourceTree = "<group>"; };
+		4CA0BF86223132E80031CADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA0BF92223133510031CADE /* AnjiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnjiViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CA0BF5E223132E50031CADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA0BF72223132E80031CADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA0BF7D223132E80031CADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CA0BF58223132E50031CADE = {
+			isa = PBXGroup;
+			children = (
+				4CA0BF63223132E50031CADE /* Angi */,
+				4CA0BF78223132E80031CADE /* AngiTests */,
+				4CA0BF83223132E80031CADE /* AngiUITests */,
+				4CA0BF62223132E50031CADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CA0BF62223132E50031CADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA0BF61223132E50031CADE /* Angi.app */,
+				4CA0BF75223132E80031CADE /* AngiTests.xctest */,
+				4CA0BF80223132E80031CADE /* AngiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA0BF63223132E50031CADE /* Angi */ = {
+			isa = PBXGroup;
+			children = (
+				4CA0BF64223132E60031CADE /* AppDelegate.swift */,
+				4CA0BF68223132E60031CADE /* Main.storyboard */,
+				4CA0BF6B223132E80031CADE /* Assets.xcassets */,
+				4CA0BF6D223132E80031CADE /* LaunchScreen.storyboard */,
+				4CA0BF70223132E80031CADE /* Info.plist */,
+				4CA0BF92223133510031CADE /* AnjiViewController.swift */,
+			);
+			path = Angi;
+			sourceTree = "<group>";
+		};
+		4CA0BF78223132E80031CADE /* AngiTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA0BF79223132E80031CADE /* AngiTests.swift */,
+				4CA0BF7B223132E80031CADE /* Info.plist */,
+			);
+			path = AngiTests;
+			sourceTree = "<group>";
+		};
+		4CA0BF83223132E80031CADE /* AngiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA0BF84223132E80031CADE /* AngiUITests.swift */,
+				4CA0BF86223132E80031CADE /* Info.plist */,
+			);
+			path = AngiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CA0BF60223132E50031CADE /* Angi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA0BF89223132E80031CADE /* Build configuration list for PBXNativeTarget "Angi" */;
+			buildPhases = (
+				4CA0BF5D223132E50031CADE /* Sources */,
+				4CA0BF5E223132E50031CADE /* Frameworks */,
+				4CA0BF5F223132E50031CADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Angi;
+			productName = Angi;
+			productReference = 4CA0BF61223132E50031CADE /* Angi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CA0BF74223132E80031CADE /* AngiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA0BF8C223132E80031CADE /* Build configuration list for PBXNativeTarget "AngiTests" */;
+			buildPhases = (
+				4CA0BF71223132E80031CADE /* Sources */,
+				4CA0BF72223132E80031CADE /* Frameworks */,
+				4CA0BF73223132E80031CADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA0BF77223132E80031CADE /* PBXTargetDependency */,
+			);
+			name = AngiTests;
+			productName = AngiTests;
+			productReference = 4CA0BF75223132E80031CADE /* AngiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CA0BF7F223132E80031CADE /* AngiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA0BF8F223132E80031CADE /* Build configuration list for PBXNativeTarget "AngiUITests" */;
+			buildPhases = (
+				4CA0BF7C223132E80031CADE /* Sources */,
+				4CA0BF7D223132E80031CADE /* Frameworks */,
+				4CA0BF7E223132E80031CADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA0BF82223132E80031CADE /* PBXTargetDependency */,
+			);
+			name = AngiUITests;
+			productName = AngiUITests;
+			productReference = 4CA0BF80223132E80031CADE /* AngiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CA0BF59223132E50031CADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Digital-05";
+				TargetAttributes = {
+					4CA0BF60223132E50031CADE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4CA0BF74223132E80031CADE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4CA0BF60223132E50031CADE;
+					};
+					4CA0BF7F223132E80031CADE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4CA0BF60223132E50031CADE;
+					};
+				};
+			};
+			buildConfigurationList = 4CA0BF5C223132E50031CADE /* Build configuration list for PBXProject "Angi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CA0BF58223132E50031CADE;
+			productRefGroup = 4CA0BF62223132E50031CADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CA0BF60223132E50031CADE /* Angi */,
+				4CA0BF74223132E80031CADE /* AngiTests */,
+				4CA0BF7F223132E80031CADE /* AngiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CA0BF5F223132E50031CADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA0BF6F223132E80031CADE /* LaunchScreen.storyboard in Resources */,
+				4CA0BF6C223132E80031CADE /* Assets.xcassets in Resources */,
+				4CA0BF6A223132E60031CADE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA0BF73223132E80031CADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA0BF7E223132E80031CADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CA0BF5D223132E50031CADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA0BF93223133510031CADE /* AnjiViewController.swift in Sources */,
+				4CA0BF65223132E60031CADE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA0BF71223132E80031CADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA0BF7A223132E80031CADE /* AngiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA0BF7C223132E80031CADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA0BF85223132E80031CADE /* AngiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CA0BF77223132E80031CADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA0BF60223132E50031CADE /* Angi */;
+			targetProxy = 4CA0BF76223132E80031CADE /* PBXContainerItemProxy */;
+		};
+		4CA0BF82223132E80031CADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA0BF60223132E50031CADE /* Angi */;
+			targetProxy = 4CA0BF81223132E80031CADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CA0BF68223132E60031CADE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA0BF69223132E60031CADE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CA0BF6D223132E80031CADE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA0BF6E223132E80031CADE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CA0BF87223132E80031CADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CA0BF88223132E80031CADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CA0BF8A223132E80031CADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Angi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nibm.Angi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CA0BF8B223132E80031CADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Angi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nibm.Angi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CA0BF8D223132E80031CADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AngiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nibm.AngiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Angi.app/Angi";
+			};
+			name = Debug;
+		};
+		4CA0BF8E223132E80031CADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AngiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nibm.AngiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Angi.app/Angi";
+			};
+			name = Release;
+		};
+		4CA0BF90223132E80031CADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AngiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nibm.AngiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Angi;
+			};
+			name = Debug;
+		};
+		4CA0BF91223132E80031CADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AngiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nibm.AngiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Angi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA0BF5C223132E50031CADE /* Build configuration list for PBXProject "Angi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA0BF87223132E80031CADE /* Debug */,
+				4CA0BF88223132E80031CADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA0BF89223132E80031CADE /* Build configuration list for PBXNativeTarget "Angi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA0BF8A223132E80031CADE /* Debug */,
+				4CA0BF8B223132E80031CADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA0BF8C223132E80031CADE /* Build configuration list for PBXNativeTarget "AngiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA0BF8D223132E80031CADE /* Debug */,
+				4CA0BF8E223132E80031CADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA0BF8F223132E80031CADE /* Build configuration list for PBXNativeTarget "AngiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA0BF90223132E80031CADE /* Debug */,
+				4CA0BF91223132E80031CADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CA0BF59223132E50031CADE /* Project object */;
+}
